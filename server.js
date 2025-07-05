@@ -11,10 +11,10 @@ const SECRET_KEY = 'DiGong';
 const uploads = multer({ dest: 'uploads/' }); 
 
 connection = mysql.createConnection({
-  host:'database',
+  host:'Digong',
   user:'root',
   password:'1234',
-  database:'Digong'
+  database:'kdt'
 });
 
 // DB연결 실패 시 에러 출력
