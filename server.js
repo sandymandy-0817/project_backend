@@ -14,7 +14,7 @@ connection = mysql.createConnection({
   host:'database',
   user:'root',
   password:'1234',
-  database:'kdt'
+  database:'Digong'
 });
 
 // DB연결 실패 시 에러 출력
