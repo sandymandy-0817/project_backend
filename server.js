@@ -11,7 +11,8 @@ const SECRET_KEY = 'DiGong';
 const uploads = multer({ dest: 'uploads/' }); 
 
 connection = mysql.createConnection({
-  host:'127.0.0.1',
+  host: 'svc.sel4.cloudtype.app',
+  port: 31260,
   user:'root',
   password:'1234',
   database:'kdt'
